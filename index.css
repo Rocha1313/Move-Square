@@ -1,0 +1,60 @@
+#map {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+}
+
+#player1 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    opacity: 50%;
+}
+
+#player2 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    opacity: 50%;
+}
+
+#box {
+    display: flex;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#coin {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+#game {
+    display: flex;
+    flex-direction: row;
+}
+
+#score {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#scoreH3 {
+    margin-top: 0px;
+}
+
+body {
+    background-color: white;
+}
